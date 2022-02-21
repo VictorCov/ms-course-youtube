@@ -25,3 +25,10 @@ spring:
           uri: lb://shopping-service
           predicates:
             - Path=/invoices/**
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+       
