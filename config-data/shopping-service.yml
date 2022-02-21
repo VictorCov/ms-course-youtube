@@ -44,7 +44,7 @@ eureka:
 Feign:
   hystrix:
     enabled: true
-  hystrix:
+hystrix:
   dashboard:
     proxy-stream-allow-list: "*"   
   management:
