@@ -7,9 +7,12 @@ spring:
       server:
         git:
           uri: https://github.com/VictorCov/ms-course-youtube.git
-          searchPath: config-data
+          default-label: 02-config
+          searchPaths: config-data
           username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          password: ${GIT_TOKEN}
+
+
   security:
     user:
       name: root
